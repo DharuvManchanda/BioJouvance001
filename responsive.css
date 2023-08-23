@@ -1,0 +1,117 @@
+@media (width<=1000px){
+.navBar{ 
+gap: 6px;
+position: relative;
+align-items: center;
+background-color: #ffffff;
+justify-content: space-between;
+}
+.heroSec1{
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+.textSec1{
+    font-size: 18px;
+    width: 100%;
+    margin-left: 0;
+}
+.navIcon{
+    visibility: visible;
+    font-size: 20px;
+    color: #cca9a9;  
+}
+
+.leftNav{
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    padding: 20px;
+    gap: 40px;
+   right: -100%;
+width: 100%;
+background-color: #ffffff;
+transition: .7s all ease-in-out;
+}
+.active{
+    right: 0%;
+}
+.navList{
+    flex-direction: column;
+}
+.mainBar{
+    flex-wrap: wrap-reverse;
+}
+.heroSec{
+    align-items: center;
+    padding: 10px;
+ }
+ .textSec{
+     padding: 5px;
+     margin-left: 0;
+     width: 80%;
+ }
+
+}
+@media (width<=680px){
+    .leftMain h1 {
+        font-size: 2rem;
+      }
+    .navBar{
+    justify-content: space-between;
+      text-align: center;
+      align-items: center;
+    }    
+    .rightNav{
+        position: absolute;
+        top: 100%;
+        width: 105%;
+        left: -6%;
+  background-color: #ffffff;
+        z-index: 10;
+        padding-bottom:20px;
+        gap: 30px;
+    }
+ 
+    .leftNav{
+        top: 150%;
+    }
+    .video2 img{
+        width: 100%;
+    }
+    .middleNav{
+font-size: 13px;
+min-width:0;
+    }
+    .footerText{
+flex-wrap: wrap;
+    }
+    h1{
+        font-size: 25px;
+    }
+    
+    .textSec{
+        width: 100%;
+    }
+    .heroSec2{
+        padding: 20px;
+        justify-content: center;
+        background-color: #ffffff;
+        flex-wrap: wrap-reverse; 
+    }
+    .textSec2{
+        background-color: #f5a951;
+       padding: 20px;
+    }
+    .rightHeroSec2{
+        width: 100%;
+    }
+    .rightHeroSec2 img{
+    height: 90vh;
+    }
+}
+@media (width<=450px){
+    .rightHeroSec2 img{
+        height: 50vh;
+        }
+}
